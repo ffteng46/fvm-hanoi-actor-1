@@ -20,6 +20,7 @@ This is based on @raulk's Hello World example:
 Raul's Steps for demo (from Slack Channel)
 
 * Compile actor to Wasm
+* this needs to execute this command:rustup target add wasm32-unknown-unknown --toolchain nightly,or will be failed with missing std error.
   * Hello World actor: https://github.com/raulk/fil-hello-world-actor
 * Set up a Lotus devnet
   * Experimental branch: experimental/fvm-m2
