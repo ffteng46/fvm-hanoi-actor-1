@@ -25,6 +25,7 @@ Raul's Steps for demo (from Slack Channel)
 * Set up a Lotus devnet
   * Experimental branch: experimental/fvm-m2
   * Instructions: https://lotus.filecoin.io/developers/local-network/
+  * if invalid version: unknown revision c83bea50c402,changing the GOPROXY from https://goproxy.io to https://goproxy.cn
 * Install Actor
   * lotus chain install-actor <path-to-wasm-bytecode>
 * Instantiate Actor
